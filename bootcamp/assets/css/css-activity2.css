@@ -1,0 +1,39 @@
+body {
+  background: #fafafa;
+  font-family: serif;
+}
+
+.cards {
+  width: 530px;
+  margin: auto;
+  padding: 0 15px 15px;
+  background: #fff;
+  overflow: hidden;
+}
+
+.profile {
+  width: 250px;
+  float: left;
+  box-shadow: 3px 3px 3px 0px rgba(0,0,0,.16);
+}
+
+.man {
+  float: left;
+}
+
+.woman {
+  float: right;
+  border-radius: 10px 10px 0 0;
+}
+
+img {
+  width: 100%;
+}
+
+.desc {
+  padding: 0 20px;
+}
+
+.name {
+  font-weight: bold;
+}

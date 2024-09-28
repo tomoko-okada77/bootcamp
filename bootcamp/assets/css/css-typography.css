@@ -1,0 +1,149 @@
+.color-name {
+  color: salmon;
+}
+
+.rgb {
+  color: rgb(250, 128, 114);
+  opacity: 0.5;
+}
+
+.rgba {
+  color: rgba(250, 128, 114, 0.3);
+}
+
+.hexcode {
+  color: #fa8072;
+}
+
+/* font family */
+
+.serif {
+  font-family: serif;
+}
+
+.sans-serif {
+  font-family: sans-serif;
+}
+
+.monospace {
+  font-family: monospace;
+}
+
+/* font size */
+
+.fs-px {
+  font-size: 50px;
+}
+
+.fs-perc {
+  font-size: 200%;
+}
+
+.fs-em {
+  font-size: 5em;
+}
+
+/* font weight */
+
+.fw-bold {
+  font-weight: bold;
+}
+
+.fw-normal {
+  font-weight: normal;
+}
+
+.fw-100 {
+  font-weight: 100;
+}
+
+/* font style */
+
+.fst-normal {
+  font-style: normal;
+}
+
+.fst-italic {
+  font-style: italic;
+}
+
+.fst-oblique {
+  font-style: oblique;
+}
+
+/* text transform */
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.lowercase {
+  text-transform: lowercase;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+/* text decoration */
+
+.underline {
+  text-decoration: underline;
+}
+
+.overline {
+  text-decoration: overline;
+}
+
+.line-through {
+  text-decoration: line-through;
+}
+
+.none {
+  text-decoration: none;
+}
+
+/* text align */
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+.center {
+  text-align: center;
+}
+
+/* text shadow */
+
+.text-shadow {
+  text-shadow: 2px 2px 5px red;
+}
+
+/* text indent */
+
+.text-indent-px {
+  text-indent: 50px;
+}
+
+.text-indent-perc {
+  text-indent: 50%;
+}
+
+.text-indent-em {
+  text-indent: 5em;
+}
+
+/* letter spacing */
+
+.letter-spacing {
+  letter-spacing: 10px;
+}
+
+/* word spacing */
+.word-spacing {
+  word-spacing: 20px;
+}

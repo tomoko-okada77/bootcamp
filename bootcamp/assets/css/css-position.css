@@ -1,0 +1,23 @@
+.position-static {
+  position: static;
+  border: 1px solid #000;
+  left: 50px;
+  top: 50px;
+}
+
+.position-relative {
+  position: relative;
+  border: 1px solid red;
+  left: 50px;
+  top: 50px;
+}
+
+.position-absolute {
+  position: absolute;
+  left: 30px;
+  top: 30px;
+}
+
+.position-fixed {
+  position: fixed;
+}

@@ -1,0 +1,146 @@
+.background-color {
+  height: 500px;
+  width: 500px;
+  background-color: #fa8072;
+}
+
+.one-value-margin {
+  border: 1px solid #000;
+  margin: 20px;
+}
+
+.two-value-margin {
+  border: 1px solid #000;
+  margin: 10px 20px;
+}
+
+.three-value-margin {
+  border: 1px solid #000;
+  margin: 10px 20px 20px;
+}
+
+.four-value-margin {
+  border: 1px solid #000;
+  margin: 10px 20px 30px 40px;
+}
+
+.individual-margin {
+  border: 1px solid #000;
+  margin-top: 20px;
+  margin-right: 40px;
+  margin-bottom: 60px;
+  margin-left: 80px;
+}
+
+.one-value-padding {
+  border: 1px solid red;
+  padding: 10px;
+}
+
+.two-value-padding {
+  border: 1px solid red;
+  padding: 10px 20px;
+}
+
+.three-value-padding {
+  border: 1px solid red;
+  padding: 10px 20px 30px;
+}
+
+.four-value-padding {
+  border: 1px solid red;
+  padding: 10px 20px 30px 40px;
+}
+
+.individual-padding {
+  border: 1px solid red;
+  padding-top: 20px;
+  padding-right: 40px;
+  padding-bottom: 60px;
+  padding-left: 80px;
+}
+
+.solid {
+  border-width: 5px;
+  border-color: tomato;
+  border-style: solid;
+}
+
+.dashed {
+  border-width: 5px;
+  border-color: teal;
+  border-style: dashed;
+}
+.dotted {
+  border-width: 5px;
+  border-color: goldenrod;
+  border-style: dotted;
+}
+.groove {
+  border-width: 5px;
+  border-color: purple;
+  border-style: groove;
+}
+.ridge {
+  border-width: 5px;
+  border-color: blue;
+  border-style: ridge;
+}
+.inset {
+  border-width: 5px;
+  border-color: salmon;
+  border-style: inset;
+}
+.outset {
+  border-width: 5px;
+  border-color: dodgerblue;
+  border-style: outset;
+}
+.border-radius {
+  border-width: 5px;
+  border-color: black;
+  border-style: solid;
+  border-radius: 50px;
+}
+.individual-border {
+  border-top: 10px;
+  border-right: 20px;
+  border-bottom: 30px;
+  border-left: 40px;
+  border-style: solid;
+  border-color: pink;
+}
+
+.overflow {
+  overflow: scroll;
+  border: 1px solid #000;
+  box-shadow: 10px 10px 5px 5px #fff000;
+}
+
+.red-box {
+  box-sizing: border-box;
+  border: 1px solid red;
+  width: 300px;
+  height: 300px;
+}
+
+.blue-box {
+  box-sizing: border-box;
+  border: 1px solid blue;
+  width: 300px;
+  height: 300px;
+  padding: 50px;
+}
+
+.text-align {
+  text-align: center;
+  border: 1px solid green;
+}
+
+.block-align {
+  width: 500px;
+  border: 1px solid #000;
+  margin-left: auto;
+  margin-right: auto;
+}
+

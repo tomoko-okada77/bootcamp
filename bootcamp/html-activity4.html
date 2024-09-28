@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="widtd=device-widtd, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Please fill this survey form</h1>
+  <table>
+    <tr>
+      <td><label for="first-name">First Name:</label></td>
+      <td><input type="text" name="first_name" id="first-name"></td>
+      <td><label for="mi">MI:</label></td>
+      <td><input type="text" name="mi" id="mi" size="4"></td>
+      <td><label for="last-name">Last Name:</label></td>
+      <td><input type="text" name="last_name" id="last-name"></td>
+    </tr>
+    <tr>
+      <td><label for="city">City:</label></td>
+      <td><input type="text" name="city" id="city"></td>
+      <td><label for="state">State:</label></td>
+      <td><input type="text" name="state" id="state"></td>
+      <td><label for="zipcode">Zip Code:</label></td>
+      <td><input type="text" name="zipcode" id="zipcode"></td>
+    </tr>
+  </table>
+
+  <br>
+
+  <p>Choose a Sport:</p>
+  <input type="checkbox" name="basketball" id="basketball">
+  <label for="basketball">Basketball</label>
+  <input type="checkbox" name="football" id="football">
+  <label for="football">Football</label>
+  <input type="checkbox" name="hockey" id="hockey">
+  <label for="hockey">Hockey</label>
+
+  <P>Choose a Year:</P>
+  <input type="radio" name="year" id="freshman">
+  <label for="freshman">Freshman</label>
+  <input type="radio" name="year" id="sophomore">
+  <label for="sophomore">Sophomore</label>
+  <input type="radio" name="year" id="junior">
+  <label for="junior">Junior</label>
+  <input type="radio" name="year" id="senior">
+  <label for="senior">Senior</label>
+  <br>
+
+  <label for="food">Choose your favorite food:</label><br>
+  <select name="food" id="food" multiple>
+    <option value="chips">Chips</option>
+    <option value="pizza">Pizza</option>
+    <option value="nachos">Nachos</option>
+  </select>
+
+  <br>
+
+  <textarea name="comments" id="comments" cols="30" rows="5" placeholder="Please let us know your comments"></textarea>
+  
+  <br>
+
+  <button type="submit" name="submit">Send it</button>
+  <button type="reset" name="reset">Clear it</button>
+</body>
+</html>

@@ -1,0 +1,33 @@
+/* external / Dedicated CSS file */
+* {
+  color: maroon;
+}
+
+/* selector */
+h1 {
+  color: red;
+}
+
+span.fruits {
+  color: yellow;
+}
+
+.size {
+  font-size: 20px;
+}
+
+.animals {
+  color: green;
+}
+
+p.fruits {
+  color: skyblue;
+}
+
+#tomo {
+  color: pink;
+}
+
+#bern {
+  color: aquamarine;
+}
